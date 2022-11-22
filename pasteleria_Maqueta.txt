@@ -1,0 +1,66 @@
+pasteleria:
+ <h1>BIENBENIDO A LA PASTALERIA</h1>
+        <!--formulario para el registro de la pagina-->
+        <section id="FormularioCliente">
+            
+            <h2>Registrate para hacer tus pedidos</h2>
+
+            <label for="Nombre1">Nombre: </label><br>
+            <input type="text" id="Nombre1" name="Nombre1"><br><br>
+            
+
+            <label for="tel1">Telefono:  </label><br>
+            <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+            
+
+            <label for="Correo1">email:  </label><br>
+            <input type="email" id="Correo1" name="Correo1"><br><br>
+
+            
+            
+        </section>
++
+        <!--inicio de secion-->
+       <!--<section id="InicioDeSecion">
+
+
+        </section>-->
+        
+        <!--formulario de para realizar pedidos-->
+       <!----> <section id="pedidos">
+           
+            <label for="Pastel1">Describa su pastel: </label><br><br>
+            <input type="text" id="Pastel1" name="Pastel1">
+            
+            
+
+            <!--selecion de sabores-->
+            <h2>sabores</h2>           
+            <input type="checkbox" id="sabor1" name="sabor1" value="Maracuya">
+            <label for="sabor1">Maracuya</label><br><br>
+         
+            
+            <input type="checkbox" id="sabor2" name="sabor2" value="Chocolate">
+            <label for="sabor2">Chocolate</label><br><br>            
+
+            
+            <input type="checkbox" id="sabor3" name="sabor3" value="Fresa">
+            <label for="sabor3">Fresa</label><br><br>           
+            
+            
+            <input type="checkbox" id="sabor4" name="sabor4" value="kiwui">
+            <label for="sabor4">kiwui</label>
+
+            <!--selecion de adornos-->
+          <h2>Adornos</h2>
+            <label for="adornos">elija los adornos que deceas</label>
+            <select id="adornos" name="adornos">
+                <option value="perlas y lineas">perlas y lineas</option>
+                <option value="personajes">personajes</option>
+                <option value="flores">flores</option>
+                <option value="choreado">choreado</option>
+
+            </select>
+
+     
+        </section>
